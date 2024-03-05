@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>simple platform shooter
+	</title>
+	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+	<!--<link rel="stylesheet" href="./styles.css">-->
+</head>
+<body>
+
+	<div class="fixed text-white text-md ml-2 mt-1 font-bold"><span>Score: </span><span id="result">0</span></div>
+
+	<div class="fixed inset-0 flex items-center justify-center" id="modalEl">
+		<div class="bg-white max-w-md w-full p-6 text-center rounded-md">
+			<p class="text-2xl font-bold mb-2 leading-none">Your Score:</p>
+			<h1 class="text-4xl font-bold mb-4" id="score-update">0</h1>
+			<button class="bg-teal-700 text-white w-full text-sm py-3 rounded-full" id="startGame-btn">Start Game</button>
+		</div>
+	</div>
+
+	<canvas></canvas>
+
+	<script src="./src/js/game.js" type="module" crossorigin="use-credentials"></script>
+</body>
+</html>
