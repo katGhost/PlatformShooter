@@ -1,4 +1,5 @@
 import Enemy from './enemy.js';
+import Laser from './laser.js';
 import Platform from './platform.js';
 import Player from './player.js';
 
