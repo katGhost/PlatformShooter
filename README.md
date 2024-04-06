@@ -72,6 +72,11 @@ export default class Player {
 ```
 Used import above to access the context (ctx), gravity (world) and canvas.
 
+**NOTE** To import between multiple JS files, it is necessary to consider using Javascript modules, as shown below:
+```html
+   <script src="./src/js/game.js" type="module"></script>
+```
+
 **Contributing:**
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
